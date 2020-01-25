@@ -1,0 +1,4 @@
+import cv2 as cv
+
+a = cv.imread('dog.jpg',cv.IMREAD_COLOR)
+cv.imshow('dogs',a)
